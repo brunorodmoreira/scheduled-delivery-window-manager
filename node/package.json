@@ -1,18 +1,20 @@
 {
-  "dependencies": {
-    "co-body": "^6.0.0"
-  },
-  "devDependencies": {
-    "@types/co-body": "^0.0.3",
-    "@types/node": "12.x",
-    "@vtex/api": "6.35.0",
-    "eslint": "^6.3.0",
-    "eslint-config-vtex": "^11.0.0",
-    "prettier": "^1.18.2",
-    "typescript": "3.8.3"
-  },
-  "scripts": {
-    "lint": "tsc --noEmit --pretty && eslint -c .eslintrc.json --fix './**/*.ts'"
-  },
-  "version": "0.7.2"
+   "dependencies": {
+      "co-body": "^6.0.0"
+   },
+   "devDependencies": {
+      "@types/co-body": "^0.0.3",
+      "@types/node": "12.x",
+      "@vtex/api": "6.35.1",
+      "eslint": "^6.3.0",
+      "eslint-config-vtex": "^11.0.0",
+      "eslint-plugin-lodash": "^7.1.0",
+      "prettier": "^1.18.2",
+      "typescript": "3.8.3",
+      "vtex.scheduled-delivery-window-manager": "https://window--brunomoreira.myvtex.com/_v/private/typings/linked/v1/vtex.scheduled-delivery-window-manager@0.0.1+build1595541285/public/_types/react"
+   },
+   "scripts": {
+      "lint": "tsc --noEmit --pretty && eslint -c .eslintrc.json --fix './**/*.ts'"
+   },
+   "version": "0.7.2"
 }
